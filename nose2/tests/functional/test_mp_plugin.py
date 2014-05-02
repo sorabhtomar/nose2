@@ -174,6 +174,6 @@ class MPPluginTestRuns(FunctionalTestCase):
             '--plugin=nose2.plugins.mp',
             '--plugin=nose2.plugins.loader.generators',
             '-N=1')
-        self.assertTestRunOutputMatches(proc, stderr='Ran 1000 tests')
+        self.assertTestRunOutputMatches(proc, stderr='Ran 600 tests')
         self.assertEqual(proc.poll(), 0)
 

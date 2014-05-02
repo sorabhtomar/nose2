@@ -3,6 +3,6 @@ def check(_):
 
 
 def test():
-    for i in xrange(0, 1000):
+    for i in range(0, 600):
         yield check, i
 
